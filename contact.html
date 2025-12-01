@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <!-- button to navigate back to home page -->
+    <button><a href="index.html">Back to Home</a></button>
+
+    <!-- starting of contact info -->
+    <h1 style="text-align: center;">Contact Information</h1>
+
+    <!-- Form section starts -->
+    <form style="display: inline-block;">
+        <fieldset style="border-radius: 8px; padding: 10px;">
+            <legend>Please fill the Form</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your Full name" required><br><br>
+            <!-- Name closing -->
+
+                <label for="dob">DOB: </label>
+                <input type="date" name="dob" id="dob" required><br><br>
+            <!-- DOB closing -->
+
+                <label for="Guardian">Guardian Name: </label>
+                <input type="text" name="Guardian" id="Guardian" placeholder="Enter your Guardian name" required><br><br>
+            <!-- Guardian Name closing -->
+
+                <label for="address">Address: </label> 
+                <input type="address" name="address" id="address" placeholder="Enter your address" required><br><br>
+            <!-- Address closing -->
+
+                <label>Gender: </label> 
+                        <input type="radio" name="Gender">Male
+                        <input type="radio" name="Gender">Female
+                        <input type="radio" name="Gender">Others<br><br>
+            <!-- Gender closing -->
+
+                <label for="number">Contact No.: </label>
+                <input type="number" name="number" id="number" placeholder="Enter your Number" required><br><br>
+            <!-- Contact number closing    -->
+
+                <label for="email">Email: </label> 
+                <input type="email" name="email" id="email" placeholder="Enter your Email" required><br><br>
+            <!-- Email closing -->
+
+            <button>Submit</button>
+        </fieldset>
+    </form>
+
+    <!-- starting of embedding Google map using iframe -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1956.9702125721187!2d87.27406577580238!3d26.472827513033536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef746ef82fe577%3A0x4bec2c5316a5a058!2sNihareeka%20College!5e1!3m2!1sen!2snp!4v1764576407866!5m2!1sen!2snp" width="900" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
